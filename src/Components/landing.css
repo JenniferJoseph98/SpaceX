@@ -1,0 +1,93 @@
+#landingimage{
+    height: 350px;
+    width: 100%;
+}
+.banner{
+    display: flex;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-size: 100% 380px;
+    background-image: url(https://www.verdict.co.uk/wp-content/uploads/2017/05/space-rocket--1440x836.jpg);
+}
+
+#go {
+    font-size: 70px;
+}
+#quotes{
+
+    width: 30%;
+    color: azure;
+    margin-left: 20px;
+}
+#landingimage{
+    width: 70%;
+}
+#inputs{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.search{
+    width: 300px;
+    height: 50px;
+    margin-left: 10px;
+    border-radius: 15px;
+}
+#searchbtn{
+    background-color: rgb(31, 173, 229);
+    border: 1px solid whitesmoke;
+}
+#lists{
+    display: grid;
+    margin-top: 15px;
+
+    grid-template-columns: auto auto;
+    grid-column-gap: 20px;
+}
+.tag{
+    width: 100%;
+    height: 400px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 20px;
+  
+}
+.infopart{
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.tagimage{
+    width: 100%;
+    height: 250px;
+}
+#popupbox {
+    margin-left: 300px;
+    background-image: url(https://th.bing.com/th/id/R.5df39eb0052b6aaf6b5934523d3c4a04?rik=9fGVDfATtpUO8Q&riu=http%3a%2f%2fwww.wallpaperup.com%2fuploads%2fwallpapers%2f2015%2f04%2f24%2f670127%2f5df39eb0052b6aaf6b5934523d3c4a04.jpg&ehk=EZ6WrKsxDcbS8ai4ubYEeveyauBvcan0gzYior5BbYg%3d&risl=&pid=ImgRaw&r=0);
+    margin-top: 150px;
+    width: 750px;
+    height: 380px;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: absolute;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(91, 196, 237);
+    color: white;
+}
+
+.popuptop{
+    margin: auto auto;
+}
+.popupbottom{
+    display: flex;
+    justify-content: center;
+}
+.okaybtn{
+    margin-bottom: 10px;
+}
+#searchresult{
+    height: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 800px;
+}
